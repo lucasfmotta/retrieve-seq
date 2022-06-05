@@ -25,3 +25,5 @@ python3 retrieve-seq.py file_name.FASTA file_name.txt [-start/-stop/-startstop r
 
 If you don't use the optional commands, the script will retrieve the sequence of every ORF.
 Using the optional commands you can retrieve a sequence relative to that nt (e.g. -start -100 +150 will retrieve the sequence from -100 to 150 relative to the first nt of every ORF)
+
+You can install this script using [setupy](https://github.com/lucasfmotta/setupy)
